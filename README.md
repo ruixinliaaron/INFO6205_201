@@ -34,7 +34,7 @@ From the screen shot we can see that finally the play’s status turns to 3 whic
    
 In our project, we set mutation rate to 0.005, which the probability to mutation for each gene is 0.5%. So roughly 91% of the time we should have a mutation occurring for a player.
 4.Unit Tests
-  
+  ![](https://github.com/ruixinliaaron/INFO6205_201/blob/master/screenshot/unit%20test.png)
 5.Parallel processing
 We conducted two threads simulating two population of same creature with base amount of 100 each. And merge the result together in priorityqueue to get parents.
 6.Conclusion
