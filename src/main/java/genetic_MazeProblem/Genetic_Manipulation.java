@@ -9,7 +9,7 @@ public class Genetic_Manipulation implements Comparable {
 	private int maxStep;
 	private boolean alive = true;
 	private static final int COUNT_GENE = 200;
-	private final double MUTATE_PROB = 0.5;
+	private final double MUTATE_PROB = 0.005;//probability of mutate
 	static MazeModel m = new MazeModel();
 
 	public boolean isAlive() {
