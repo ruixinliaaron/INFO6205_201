@@ -11,8 +11,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.PriorityBlockingQueue;
 
 public class Generation {
-	public static final int MAXGENERATION = 30000;
-	public static final int FIRST_GENERATION = 100;
+	public static final int MAXGENERATION = 10000;
+	public static final int FIRST_GENERATION = 1000;
 	private static Genetic_Manipulation bestOfGeneration;
 	static PriorityBlockingQueue<Genetic_Manipulation> pq = new PriorityBlockingQueue<>();
 	public static int GENERATION=0;
