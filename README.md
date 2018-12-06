@@ -12,7 +12,7 @@ In our project, we make a little change from maze problem, the player is suppose
 GA code typically has the following functions:
 
 ### 1.Genetic code 
-Initially, we set 100 players in maze and the maximum number of generation is 30000.A play has 200 genes which means that he/she can move 200 steps at most, a gene is generator randomly from parent.
+Initially, we set 1000 players in maze and the maximum number of generation is 10000.A play has 200 genes which means that he/she can move 200 steps at most, a gene is generator randomly from parent.
 
 ### 2.Fitness Function
 Probably the most important bit of a GA next to figuring out how to encode the population's genes. Well, in our project, gene represent the move direction down, left, up, right encoded as 1,2,3,4 in the maze
