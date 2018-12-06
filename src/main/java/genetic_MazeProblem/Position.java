@@ -13,10 +13,10 @@ public class Position {
 		Position(int x, int y, boolean walkable) {
 			this.x = x;
 			this.y = y;
-			this.walkable = walkable;	// position can be walked through, not a Wall nor FIRE
-			this.path_cur_trap = null;		// previous node from Gate
-			this.path_cur_gems = null;		// previous node from Key
-			this.path_cur_end = null;		// previous node from End
+			this.walkable = walkable;	
+			this.path_cur_trap = null;		
+			this.path_cur_gems = null;		
+			this.path_cur_end = null;		
 			this.distance_cur_trap = 0;
 			this.distance_cur_gems = 0;
 			this.distance_cur_end = 0;
